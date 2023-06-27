@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/cards
+
+Content-Type: application/json
+
+{
+"agencia": 0001,
+"conta": 1,
+"cpf": "88036520074",
+"dataNascimento": 12062002,
+"nomeCompleto": "Bruna Souza Santos",
+"nomeParaCartao": "Bruna",
+"bandeira": "Master",
+"tipo": "Gold",
+"dataValidade": "5",
+"senha": 592861,
+"confirmarSenha": 592861
+}
+
+GET http://localhost:3000/api/cards
+
+GET http://localhost:3000/api/cards/search
+Content-Type: application/json
+
+PUT http://localhost:3000/api/cards/state
+Content-Type: application/json
